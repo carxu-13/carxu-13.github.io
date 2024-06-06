@@ -37,36 +37,18 @@ export const projects = [
 
   export const school = [
     {
-      name: "React Reserve",
-      subtitle: "MERN Stack",
-      courses:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      name: "University of Virginia",
+      study: "Computer Science and Economics",
+      courses:["Data Structures and Algorithms 1", "Computer Systems and Organization 1", "Applied Linear Algebra"],
       image: "./project-1.gif",
     },
     {
-      title: "React Tracks",
+      title: "Thomas Jefferson High School for Science and Technology",
       subtitle: "React and Python",
-      description:
+      courses:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project-2.gif",
-      link: "https://reedbarger.com",
-    },
-    {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
+    }
   ];
 
   export const skills = ["React", "Java", "Python"];
