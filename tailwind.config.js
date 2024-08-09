@@ -7,7 +7,8 @@ module.exports = {
     theme: {
       colors: {
         bgblue: '#0C2D48',
-        bgtext:'#B1D4E0'
+        bgtext:'#B1D4E0',
+        subtext: '#F1F1F1',
       },
     extend: {},
   },

@@ -2,53 +2,36 @@
 
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "My Personal Website!",
+      subtitle: "What you are reading on right now.",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+        "This website was built using React and Tailwind CSS. I started this project to get more familliar with React and maintaining a website.",
       link: "https://reactbootcamp.com",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Power75",
+      subtitle: "HooHacks Submission 2024",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
       link: "https://reedbarger.com",
-    },
-    {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
+    }
+
   ];
 
-  export const school = [
+  export const schools = [
     {
       name: "University of Virginia",
+      years: "August 2023 - Now",
       study: "Computer Science and Economics",
       courses:["Data Structures and Algorithms 1", "Computer Systems and Organization 1", "Applied Linear Algebra"],
       image: "./project-1.gif",
     },
     {
-      title: "Thomas Jefferson High School for Science and Technology",
-      subtitle: "React and Python",
-      courses:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      name: "Thomas Jefferson High School for Science and Technology",
+      years: "August 2019 - May 2023",
+      courses: ["Computer Vision 1", "Computer Vision 2", "Website Development"],
       image: "./project-2.gif",
     }
   ];
 
-  export const skills = ["React", "Java", "Python"];
+  export const skills = ["React", "Java", "Python", "React Native"];
