@@ -27,6 +27,7 @@ export default function Skills() {
                 <span className="title-font font-medium text-white">
                   {skill}
                 </span>
+                
               </div>
             </div>
           ))}
