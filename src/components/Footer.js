@@ -9,8 +9,12 @@ export default function Footer() {
     const iconStyle = { fontSize: '2rem' }; // Adjust the size as needed
 
     return (
-        <footer className= "align-content-center font-link w-1000">
-            <div className="flex flex-row justify-center items-center space-x-8">
+        <footer section id = "footer" className= "align-content-center font-link">
+            <div className="flex justify-center space-x-8 text-white">
+                <div>
+                <h2 style = {{marginBottom: '20px'}}>Interested in working with me? Contact me here!</h2>
+                <br />
+                </div>
                 <a href="https://github.com/carxu-13" style={iconStyle}>
                     <FaGithub />
                 </a>

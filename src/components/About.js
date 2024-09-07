@@ -9,18 +9,21 @@ export default function About() {
             Hi, I'm Caroline.
           </h1>
           <p className="mb-8 leading-relaxed text-bgtext">
-            I'm a current second year at the University of Virginia, where I hope to major in 
-            Computer Science and Economics. I'm interested in working in Fintech. 
+          Hi! I'm a second-year Echols Scholar at the University of Virginia majoring in Computer Science and Economics.
+          <br />
+          <br/>My current interests include: Fintech, Data Analytics, Artificial Intelligence. 
+          <br />
+          <br/>Outside of my studies, I'm an advocate for the underrepresentation of women in STEM.
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="#footer"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Contact me here!
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               See My Past Work
             </a>
           </div>

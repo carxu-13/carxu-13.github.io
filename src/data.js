@@ -11,9 +11,15 @@ export const projects = [
     {
       title: "Power75",
       subtitle: "HooHacks Submission 2024",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      description: "I worked on processing the data inputted. I used SQLite to process and store the data.",
       link: "https://github.com/Jcatherinekim/power75",
+    },
+    {
+      title: "TravelSafe",
+      subtitle: "Hack the Map Submission 2024",
+      description:
+        "I worked on the front end by using React.js. I also discovered multiple critical accessibility issues on the website. ",
+      link: "https://github.com/asatpathy314/travel-safe-wics",
     }
 
   ];
@@ -22,14 +28,26 @@ export const projects = [
     {
       name: "University of Virginia",
       years: "August 2023 - Now",
-      study: "Computer Science and Economics",
-      courses:["Data Structures and Algorithms 1", "Computer Systems and Organization 1", "Applied Linear Algebra"],
+      studies: [
+        {
+          study: "Computer Science",
+          courses: ["Software Development Essentials", "Computer Systems and Organization 2"],
+        },
+        {
+          study: "Economics",
+          courses: ["Intermediate Microeconomics", "Money and Banking"],
+        }
+      ]
     },
     {
       name: "Thomas Jefferson High School for Science and Technology",
       years: "August 2019 - May 2023",
-      courses: ["Computer Vision 1", "Computer Vision 2", "Website Development"],
+      studies: [
+        {
+          study: "Engineering",
+          courses: ["Computer Vision 1", "Computer Vision 2", "Website Development"]
+        }],
     }
   ];
 
-  export const skills = ["React", "Java", "Python", "React Native"];
+  export const skills = ["React", "Java", "Python", "React Native", "C", "SQL"];
