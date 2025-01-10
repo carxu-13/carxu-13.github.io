@@ -23,7 +23,7 @@ export default function Projects() {
               href={project.link}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
+                <div className="px-8 py-10 relative z-10 w-full border-4">
                   <h2 className=" text-sm  font-medium mb-1">
                     {project.subtitle}
                   </h2>
