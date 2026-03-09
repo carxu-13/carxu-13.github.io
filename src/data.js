@@ -27,7 +27,7 @@ export const projects = [
   export const schools = [
     {
       name: "University of Virginia",
-      years: "August 2023 - Now",
+      years: "August 2023 - May 2026",
       studies: [
         {
           study: "Computer Science",
@@ -39,15 +39,6 @@ export const projects = [
         }
       ]
     },
-    {
-      name: "Thomas Jefferson High School for Science and Technology",
-      years: "August 2019 - May 2023",
-      studies: [
-        {
-          study: "Engineering",
-          courses: ["Computer Vision 1", "Computer Vision 2", "Website Development"]
-        }],
-    }
   ];
 
-  export const skills = ["React", "Java", "Python", "React Native", "C", "SQL"];
+  export const skills = ["React", "Java", "Python", "React Native", "C++", "SQL"];

@@ -14,7 +14,7 @@ export default function About() {
             <p className="mb-10 text-lg leading-relaxed text-subtext max-w-2xl mx-auto lg:mx-0">
               Hi! I'm a third-year Echols Scholar at the University of Virginia majoring in Computer Science and Economics.
               <br />
-              <br />My current interests include: Fintech, Data Analytics, Artificial Intelligence.
+              <br />My current interests include: Fintech, Data Analytics, Machine Learning.
               <br />
               <br />Outside of my studies, I am also a co-chair for the Hackathon for University of Virginia's Women in Computing Sciences club.
             </p>
