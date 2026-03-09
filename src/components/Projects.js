@@ -6,32 +6,39 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-subtext" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            What I've Built
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-subtext">
-            Personal projects, class projects, hackathon submissions.
-          </p>
+    <section id="projects">
+      <div className="container mx-auto px-6 py-20">
+        <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="section-eyebrow mb-3">Projects</p>
+            <h2 className="font-display text-3xl sm:text-4xl text-white mb-4">
+              What I've Built
+            </h2>
+            <p className="max-w-xl text-subtext">
+              Personal projects, class projects, hackathon submissions.
+            </p>
+          </div>
+          <a className="btn btn-secondary" href="#footer">Work with me</a>
         </div>
-        <div className="flex flex-wrap -m-4 text-subtext">
+        <div className="grid gap-6 md:grid-cols-2">
           {projects.map((project) => (
             <a
+              key={project.title}
               href={project.link}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <div className="px-8 py-10 relative z-10 w-full border-4">
-                  <h2 className=" text-sm  font-medium mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
+              className="group rounded-2xl border border-white/10 bg-surface/70 p-6 transition hover:-translate-y-1 hover:border-bgtext/60 hover:shadow-glow"
+            >
+              <div className="flex items-center gap-3 text-sm text-bgtext">
+                <CodeIcon className="h-5 w-5" />
+                <span>{project.subtitle}</span>
+              </div>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                {project.title}
+              </h3>
+              <p className="mt-3 text-subtext leading-relaxed">
+                {project.description}
+              </p>
+              <div className="mt-6 text-sm font-semibold text-bgtext">
+                View project
               </div>
             </a>
           ))}

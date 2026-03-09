@@ -1,32 +1,30 @@
 // src/components/Skills.js
 
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { BadgeCheckIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4 text-subtext" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+      <div className="container mx-auto px-6 py-20">
+        <div className="text-center mb-12">
+          <p className="section-eyebrow mb-3">Skills</p>
+          <h2 className="font-display text-3xl sm:text-4xl text-white mb-4">
             Skills &amp; Technologies
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-subtext">
-            These are some of the skills I've developed through projects, classes, and other coding experiences!
+          </h2>
+          <p className="text-base leading-relaxed max-w-2xl mx-auto text-subtext">
+            These are some of the skills I've developed through projects, classes, and other coding experiences.
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap items-center justify-center gap-3">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4 text-subtext" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-                
-              </div>
+            <div
+              key={skill}
+              className="flex items-center gap-2 rounded-full border border-white/10 bg-surface/60 px-4 py-2 text-sm text-subtext"
+            >
+              <BadgeCheckIcon className="h-4 w-4 text-bgtext" />
+              <span className="font-medium text-white">{skill}</span>
             </div>
           ))}
         </div>

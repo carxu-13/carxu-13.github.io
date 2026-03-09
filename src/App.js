@@ -10,13 +10,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (
-    <main className="bg-midblue body-font">
-        <Navbar />
-        <About />
-        <Education />
-        <Projects />
-        <Skills />
-        <Footer />
-      </main>
+    <main className="app-shell font-body">
+      <Navbar />
+      <About />
+      <Education />
+      <Projects />
+      <Skills />
+      <Footer />
+    </main>
   );
 }
